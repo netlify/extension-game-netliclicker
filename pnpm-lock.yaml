@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@netlify/functions':
-        specifier: ^3.1.10
-        version: 3.1.10(rollup@4.40.1)
+        specifier: ^4.2.2
+        version: 4.2.2(rollup@4.40.1)
       '@netlify/sdk':
         specifier: ^3.0.0
         version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.2))(@types/react@19.1.10)(autoprefixer@10.4.21(postcss@8.5.3))(graphql@16.10.0)(postcss@8.5.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(rollup@4.40.1)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.13.14)(typescript@5.9.2)))(ts-node@10.9.2(@types/node@22.13.14)(typescript@5.9.2))
@@ -138,11 +138,6 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/parser@7.27.2':
-    resolution: {integrity: sha512-QYLs8299NA7WM/bZAdp+CviYYkVoYXlDW2rzliy3chxd1PQjej7JORuMJDJXJUb9g0TT+B99EwaVLKmX+sPXWw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-
   '@babel/parser@7.28.0':
     resolution: {integrity: sha512-jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==}
     engines: {node: '>=6.0.0'}
@@ -174,10 +169,6 @@ packages:
 
   '@babel/types@7.26.10':
     resolution: {integrity: sha512-emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.27.1':
-    resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.27.6':
@@ -1265,16 +1256,16 @@ packages:
     resolution: {integrity: sha512-KP3jSg+ipILXSXq0CfKlMzNNZtJpvkSuDF2A4F0s6w8nSyl+0UrOid9VaFdyrVvSiwBZOEE6eF6qvNqfQKYKnA==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
+  '@netlify/blobs@10.0.8':
+    resolution: {integrity: sha512-zvMCtMfek7f+ky8jB3mR5zQE4ai94/SisOvQZJ+7kOfKn7poY027WnG4ngcogCQmOMQLSScvzGheojN5HjenCQ==}
+    engines: {node: ^14.16.0 || >=16.0.0}
+
   '@netlify/blobs@8.1.2':
     resolution: {integrity: sha512-coQlePCMpgyMxfeCvxa6qPHlahECin0lSRtg8UOn2rzXRWdvJk+yUhhUstW4HLa9ynvAXFAGTEZoVt4BTESNbw==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
   '@netlify/blobs@8.2.0':
     resolution: {integrity: sha512-9djLZHBKsoKk8XCgwWSEPK9QnT8qqxEQGuYh48gFIcNLvpBKkLnHbDZuyUxmNemCfDz7h0HnMXgSPnnUVgARhg==}
-    engines: {node: ^14.16.0 || >=16.0.0}
-
-  '@netlify/blobs@9.1.2':
-    resolution: {integrity: sha512-7dMjExSH4zj4ShvLem49mE3mf0K171Tx2pV4WDWhJbRUWW3SJIR2qntz0LvUGS97N5HO1SmnzrgWUhEXCsApiw==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
   '@netlify/build-info@9.0.2':
@@ -1312,12 +1303,12 @@ packages:
     peerDependencies:
       '@google-cloud/storage': ^5.8.4
 
-  '@netlify/dev-utils@2.2.0':
-    resolution: {integrity: sha512-5XUvZuffe3KetyhbWwd4n2ktd7wraocCYw10tlM+/u/95iAz29GjNiuNxbCD1T6Bn1MyGc4QLVNKOWhzJkVFAw==}
-    engines: {node: ^14.16.0 || >=16.0.0}
-
   '@netlify/dev-utils@4.0.0':
     resolution: {integrity: sha512-WJlP9/2eo3Ij7rNLWrZun8djeoT04DC6Np0xWrzSUAytGgdgCUDAXXK5x0g8GKwSXD7cPT1oMTUvgflBHoECzw==}
+    engines: {node: ^18.14.0 || >=20}
+
+  '@netlify/dev-utils@4.1.1':
+    resolution: {integrity: sha512-Y3kVGxynxi/Lz42bi20A+PQ0vh25zVjbGnQWZQUTwLzQozEIeokCgUWskPvlhs6btheLZyzUjqGuhUCymOoD1g==}
     engines: {node: ^18.14.0 || >=20}
 
   '@netlify/edge-bundler@12.4.0':
@@ -1339,12 +1330,8 @@ packages:
     resolution: {integrity: sha512-6G92AlcpFrQG72XU8YH8pg94eDnq7+Q0YJhb8x4qNpdGsvuzvrfHWBmqFGp/Yshmv4wex9lpsTRZOocdrA2erQ==}
     engines: {node: '>=14.0.0'}
 
-  '@netlify/functions@3.1.10':
-    resolution: {integrity: sha512-sI93kcJ2cUoMgDRPnrEm0lZhuiDVDqM6ngS/UbHTApIH3+eg3yZM5p/0SDFQQq9Bad0/srFmgBmTdXushzY5kg==}
-    engines: {node: '>=14.0.0'}
-
-  '@netlify/functions@4.1.13':
-    resolution: {integrity: sha512-pkvRYyyrL/+Zc7Gt8xx7ikc89so1zx5rH+b9jn8yNoDjRtPAxiGuxmIvT6sg4F0tzOdiDY5DqLGQDEib8vLiyA==}
+  '@netlify/functions@4.2.2':
+    resolution: {integrity: sha512-FZ7+Y4e1x5VJ3+36tpcB5kyBk4/mFWR7UBlhNksHWjdhNhC3CP6fqckMBW+OnZ849fMcZL2kq93/fIM49LjS+Q==}
     engines: {node: '>=18.0.0'}
 
   '@netlify/git-utils@5.2.0':
@@ -1445,10 +1432,6 @@ packages:
     resolution: {integrity: sha512-cxdjUkHh0/SLvPusCFOmIoKpXdfvom+cpBT/bUrP2oxxH1htWgJ59GGuu/pJGEU+xhKpPotr+TSJl00u7ktIhg==}
     engines: {node: '>=14.8.0'}
 
-  '@netlify/open-api@2.37.0':
-    resolution: {integrity: sha512-zXnRFkxgNsalSgU8/vwTWnav3R+8KG8SsqHxqaoJdjjJtnZR7wo3f+qqu4z+WtZ/4V7fly91HFUwZ6Uz2OdW7w==}
-    engines: {node: '>=14.8.0'}
-
   '@netlify/opentelemetry-utils@1.3.1':
     resolution: {integrity: sha512-WAzYBrRQdPw+2JWRESxmUwBSOnUGGgBh4l9GvNmMCxa/ecLw42MhNIONETZ+j2hvQd9T7qRxHece/QREgF9J0g==}
     engines: {node: '>=18.0.0'}
@@ -1466,10 +1449,6 @@ packages:
   '@netlify/run-utils@5.2.0':
     resolution: {integrity: sha512-bsrv7Sjge5g71VMgZ65Ioc5q4lHXdLQCmpUU6sY06Aeol1psi1iDOGVMx/7ExJjbCtQgxye35wZjAz60i6X22Q==}
     engines: {node: ^14.16.0 || >=16.0.0}
-
-  '@netlify/runtime-utils@1.3.1':
-    resolution: {integrity: sha512-7/vIJlMYrPJPlEW84V2yeRuG3QBu66dmlv9neTmZ5nXzwylhBEOhy11ai+34A8mHCSZI4mKns25w3HM9kaDdJg==}
-    engines: {node: '>=16.0.0'}
 
   '@netlify/runtime-utils@2.1.0':
     resolution: {integrity: sha512-z1h+wjB7IVYUsFZsuIYyNxiw5WWuylseY+eXaUDHBxNeLTlqziy+lz03QkR67CUR4Y790xGIhaHV00aOR2KAtw==}
@@ -1504,12 +1483,16 @@ packages:
     resolution: {integrity: sha512-pfCkH50JV06SGMNsNPjn8t17hOcId4fA881HeYQgMBOrewjsw4csaYgHEnCxCEu24Y5x75E2ULbFpqm9CvRCqw==}
     engines: {node: '>=18.0.0'}
 
-  '@netlify/serverless-functions-api@2.1.3':
-    resolution: {integrity: sha512-bNlN/hpND8xFQzpjyKxm6vJayD+bPBlOvs4lWihE7WULrphuH1UuFsoVE5386bNNGH8Rs1IH01AFsl7ALQgOlQ==}
+  '@netlify/serverless-functions-api@2.2.0':
+    resolution: {integrity: sha512-eQNnGUMyatgEeFJ8iKI2DT7wXDEjbWmZ+hJpCZtfg1bVsD4JdprIhLqdrUqmrDgPG2r45sQYigO9oq8BWXO37w==}
     engines: {node: '>=18.0.0'}
 
   '@netlify/tailwind-config@2.1.0':
     resolution: {integrity: sha512-szc+wQjsG7NqWasjEzUe8+OKv/1w6FOEFkMAwTD7+JC6UuVFReop+dhoFERWUrm6xEKl5ug/dVjWiPTsu9A0Ng==}
+
+  '@netlify/types@2.0.2':
+    resolution: {integrity: sha512-6899BAqehToSAd3hoevqGaIkG0M9epPMLTi6byynNVIzqv2x+b9OtRXqK67G/gCX7XkrtLQ9Xm3QNJmaFNrSXA==}
+    engines: {node: ^18.14.0 || >=20}
 
   '@netlify/ui@0.0.23':
     resolution: {integrity: sha512-QqLcs02GwetH78YOdtDpUys3fq9sykmgbJJMuI2xWzxEGhqxrTrRwE64kFNtzKsklqB2mfvVHbVafipzPkH1Ug==}
@@ -1521,13 +1504,8 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
 
-  '@netlify/zip-it-and-ship-it@12.1.0':
-    resolution: {integrity: sha512-+ND2fNnfeOZwnho79aMQ5rreFpI9tu/l4N9/F5H8t9rKYwVHHlv5Zi9o6g/gxZHDLfSbGC9th7Z46CihV8JaZw==}
-    engines: {node: '>=18.14.0'}
-    hasBin: true
-
-  '@netlify/zip-it-and-ship-it@14.1.0':
-    resolution: {integrity: sha512-avFOrCOoRMCHfeZyVUNBAbP4Byi0FMYSWS2j4zn5KAbpBgOFRRc841JnGlXGB5gCIzsrJAsW5ZL8SnlXf6lrOQ==}
+  '@netlify/zip-it-and-ship-it@14.1.3':
+    resolution: {integrity: sha512-maSAbpfMnPA/tXY5gjmEh4CxM8jtgdtZWAhXtNzs2T4onsU9BoPX+KpGH85HmKM2ttsvX+FCdPaf9rNQt6y2Ag==}
     engines: {node: '>=18.14.0'}
     hasBin: true
 
@@ -2136,11 +2114,6 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  '@vercel/nft@0.29.3':
-    resolution: {integrity: sha512-aVV0E6vJpuvImiMwU1/5QKkw2N96BRFE7mBYGS7FhXUoS6V7SarQ+8tuj33o7ofECz8JtHpmQ9JW+oVzOoB7MA==}
-    engines: {node: '>=18'}
-    hasBin: true
-
   '@vercel/nft@0.29.4':
     resolution: {integrity: sha512-6lLqMNX3TuycBPABycx7A9F1bHQR7kiQln6abjFbPrf5C/05qHM9M5E4PeTE59c7z8g6vHnx1Ioihb2AQl7BTA==}
     engines: {node: '>=18'}
@@ -2171,16 +2144,8 @@ packages:
     resolution: {integrity: sha512-LOtTn+JgJvX8WfBVJtF08TGrdjuFzGJc4mkP8EdDI8ADbvO7kiexYep1o8dwnt0okb0jYclCDXF13xU7Ge4zSw==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/fetch@0.10.6':
-    resolution: {integrity: sha512-6uzhO2aQ757p3bSHcemA8C4pqEXuyBqyGAM7cYpO0c6/igRMV9As9XL0W12h5EPYMclgr7FgjmbVQBoWEdJ/yA==}
-    engines: {node: '>=18.0.0'}
-
   '@whatwg-node/fetch@0.10.8':
     resolution: {integrity: sha512-Rw9z3ctmeEj8QIB9MavkNJqekiu9usBCSMZa+uuAvM0lF3v70oQVCXNppMIqaV6OTZbdaHF1M2HLow58DEw+wg==}
-    engines: {node: '>=18.0.0'}
-
-  '@whatwg-node/node-fetch@0.7.18':
-    resolution: {integrity: sha512-IxKdVWfZYasGiyxBcsROxq6FmDQu3MNNiOYJ/yqLKhe+Qq27IIWsK7ItbjS2M9L5aM5JxjWkIS7JDh7wnsn+CQ==}
     engines: {node: '>=18.0.0'}
 
   '@whatwg-node/node-fetch@0.7.21':
@@ -2197,10 +2162,6 @@ packages:
 
   '@whatwg-node/server@0.10.10':
     resolution: {integrity: sha512-GwpdMgUmwIp0jGjP535YtViP/nnmETAyHpGPWPZKdX++Qht/tSLbGXgFUMSsQvEACmZAR1lAPNu2CnYL1HpBgg==}
-    engines: {node: '>=18.0.0'}
-
-  '@whatwg-node/server@0.9.71':
-    resolution: {integrity: sha512-ueFCcIPaMgtuYDS9u0qlUoEvj6GiSsKrwnOLPp9SshqjtcRaR1IEHRjoReq3sXNydsF5i0ZnmuYgXq9dV53t0g==}
     engines: {node: '>=18.0.0'}
 
   '@xhmikosr/archive-type@6.0.1':
@@ -3374,6 +3335,10 @@ packages:
 
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
+
+  empathic@2.0.0:
+    resolution: {integrity: sha512-i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA==}
+    engines: {node: '>=14'}
 
   enabled@2.0.0:
     resolution: {integrity: sha512-AKrN98kuwOzMIdAizXGI86UFBoo26CL21UM763y1h/GMSJ4/OHU9k2YlsmBpyScFo/wbLzWQJBMCW4+IO3/+OQ==}
@@ -5173,10 +5138,6 @@ packages:
 
   netlify@13.3.4:
     resolution: {integrity: sha512-+Uh1YkU5EjbvqqmolVy/N8RlejDg2zvSqnpbpdaTAkgpIXgeIhCkUep0SAWa2UCEIf1Mlz1XHWRmQJaSgIZbGw==}
-    engines: {node: ^14.16.0 || >=16.0.0}
-
-  netlify@13.3.5:
-    resolution: {integrity: sha512-Nc3loyVASW59W+8fLDZT1lncpG7llffyZ2o0UQLx/Fr20i7P8oP+lE7+TEcFvXj9IUWU6LjB9P3BH+iFGyp+mg==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
   next-tick@1.1.0:
@@ -6997,10 +6958,6 @@ packages:
     resolution: {integrity: sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  write-file-atomic@6.0.0:
-    resolution: {integrity: sha512-GmqrO8WJ1NuzJ2DrziEI2o57jKAVIQNf8a18W3nCYU3H7PNWqCCVTeH6/NQE93CIllIgQS98rrmVkYgTX9fFJQ==}
-    engines: {node: ^18.17.0 || >=20.5.0}
-
   ws@8.18.1:
     resolution: {integrity: sha512-RKW2aJZMXeMxVpnZ6bck+RswznaxmzdULiBr6KY7XkTnW8uvt0iT9H5DkHUChXrc+uurzwa0rVI16n/Xzjdz1w==}
     engines: {node: '>=10.0.0'}
@@ -7206,10 +7163,6 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.6
 
-  '@babel/parser@7.27.2':
-    dependencies:
-      '@babel/types': 7.27.1
-
   '@babel/parser@7.28.0':
     dependencies:
       '@babel/types': 7.28.1
@@ -7250,11 +7203,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
-
-  '@babel/types@7.27.1':
-    dependencies:
-      '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
 
   '@babel/types@7.27.6':
     dependencies:
@@ -8037,7 +7985,7 @@ snapshots:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.7.1
+      semver: 7.7.2
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -8050,7 +7998,7 @@ snapshots:
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.7.1
+      semver: 7.7.2
       tar: 7.4.3
     transitivePeerDependencies:
       - encoding
@@ -8081,14 +8029,14 @@ snapshots:
       '@netlify/dev-utils': 4.0.0
       '@netlify/runtime-utils': 2.1.0
 
+  '@netlify/blobs@10.0.8':
+    dependencies:
+      '@netlify/dev-utils': 4.1.1
+      '@netlify/runtime-utils': 2.1.0
+
   '@netlify/blobs@8.1.2': {}
 
   '@netlify/blobs@8.2.0': {}
-
-  '@netlify/blobs@9.1.2':
-    dependencies:
-      '@netlify/dev-utils': 2.2.0
-      '@netlify/runtime-utils': 1.3.1
 
   '@netlify/build-info@9.0.2':
     dependencies:
@@ -8308,20 +8256,6 @@ snapshots:
       - debug
       - supports-color
 
-  '@netlify/dev-utils@2.2.0':
-    dependencies:
-      '@whatwg-node/server': 0.9.71
-      chokidar: 4.0.3
-      decache: 4.6.2
-      dot-prop: 9.0.0
-      env-paths: 3.0.0
-      find-up: 7.0.0
-      lodash.debounce: 4.0.8
-      netlify: 13.3.5
-      parse-gitignore: 2.0.0
-      uuid: 11.1.0
-      write-file-atomic: 6.0.0
-
   '@netlify/dev-utils@4.0.0':
     dependencies:
       '@whatwg-node/server': 0.10.10
@@ -8331,6 +8265,24 @@ snapshots:
       dot-prop: 9.0.0
       env-paths: 3.0.0
       find-up: 7.0.0
+      image-size: 2.0.2
+      js-image-generator: 1.0.4
+      lodash.debounce: 4.0.8
+      parse-gitignore: 2.0.0
+      semver: 7.7.2
+      tmp-promise: 3.0.3
+      uuid: 11.1.0
+      write-file-atomic: 5.0.1
+
+  '@netlify/dev-utils@4.1.1':
+    dependencies:
+      '@whatwg-node/server': 0.10.10
+      ansis: 4.1.0
+      chokidar: 4.0.3
+      decache: 4.6.2
+      dot-prop: 9.0.0
+      empathic: 2.0.0
+      env-paths: 3.0.0
       image-size: 2.0.2
       js-image-generator: 1.0.4
       lodash.debounce: 4.0.8
@@ -8397,31 +8349,12 @@ snapshots:
     dependencies:
       is-promise: 4.0.0
 
-  '@netlify/functions@3.1.10(rollup@4.40.1)':
+  '@netlify/functions@4.2.2(rollup@4.40.1)':
     dependencies:
-      '@netlify/blobs': 9.1.2
-      '@netlify/dev-utils': 2.2.0
-      '@netlify/serverless-functions-api': 1.41.2
-      '@netlify/zip-it-and-ship-it': 12.1.0(rollup@4.40.1)
-      cron-parser: 4.9.0
-      decache: 4.6.2
-      extract-zip: 2.0.1
-      is-stream: 4.0.1
-      jwt-decode: 4.0.0
-      lambda-local: 2.2.0
-      read-package-up: 11.0.0
-      source-map-support: 0.5.21
-    transitivePeerDependencies:
-      - encoding
-      - rollup
-      - supports-color
-
-  '@netlify/functions@4.1.13(rollup@4.40.1)':
-    dependencies:
-      '@netlify/blobs': 10.0.6
-      '@netlify/dev-utils': 4.0.0
-      '@netlify/serverless-functions-api': 2.1.3
-      '@netlify/zip-it-and-ship-it': 14.1.0(rollup@4.40.1)
+      '@netlify/blobs': 10.0.8
+      '@netlify/dev-utils': 4.1.1
+      '@netlify/types': 2.0.2
+      '@netlify/zip-it-and-ship-it': 14.1.3(rollup@4.40.1)
       cron-parser: 4.9.0
       decache: 4.6.2
       extract-zip: 2.0.1
@@ -8520,8 +8453,6 @@ snapshots:
 
   '@netlify/open-api@2.36.0': {}
 
-  '@netlify/open-api@2.37.0': {}
-
   '@netlify/opentelemetry-utils@1.3.1(@opentelemetry/api@1.8.0)':
     dependencies:
       '@opentelemetry/api': 1.8.0
@@ -8539,8 +8470,6 @@ snapshots:
   '@netlify/run-utils@5.2.0':
     dependencies:
       execa: 6.1.0
-
-  '@netlify/runtime-utils@1.3.1': {}
 
   '@netlify/runtime-utils@2.1.0': {}
 
@@ -8561,7 +8490,7 @@ snapshots:
 
   '@netlify/sdk--ui-functions@1.10.0(@trpc/server@11.0.1(typescript@5.9.2))(rollup@4.40.1)':
     dependencies:
-      '@netlify/functions': 4.1.13(rollup@4.40.1)
+      '@netlify/functions': 4.2.2(rollup@4.40.1)
       '@netlify/sdk--extension-api-client': 2.12.6
       '@trpc/server': 11.0.1(typescript@5.9.2)
       zod: 3.24.2
@@ -8603,7 +8532,7 @@ snapshots:
       '@graphql-tools/utils': 10.8.6(graphql@16.10.0)
       '@graphql-tools/wrap': 10.0.34(graphql@16.10.0)
       '@netlify/content-engine': 1.9.1(@google-cloud/storage@5.20.5)
-      '@netlify/functions': 4.1.13(rollup@4.40.1)
+      '@netlify/functions': 4.2.2(rollup@4.40.1)
       '@netlify/integrations': 0.6.0
       '@netlify/sdk--extension-api-client': 2.12.6
       '@netlify/sdk--ui-core': 1.14.0
@@ -8658,7 +8587,7 @@ snapshots:
 
   '@netlify/serverless-functions-api@1.41.2': {}
 
-  '@netlify/serverless-functions-api@2.1.3': {}
+  '@netlify/serverless-functions-api@2.2.0': {}
 
   '@netlify/tailwind-config@2.1.0(ts-node@10.9.2(@types/node@22.13.14)(typescript@5.9.2))':
     dependencies:
@@ -8667,6 +8596,8 @@ snapshots:
       tailwindcss: 3.4.17(ts-node@10.9.2(@types/node@22.13.14)(typescript@5.9.2))
     transitivePeerDependencies:
       - ts-node
+
+  '@netlify/types@2.0.2': {}
 
   '@netlify/ui@0.0.23(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(ts-node@10.9.2(@types/node@22.13.14)(typescript@5.9.2))':
     dependencies:
@@ -8725,53 +8656,12 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/zip-it-and-ship-it@12.1.0(rollup@4.40.1)':
-    dependencies:
-      '@babel/parser': 7.27.2
-      '@babel/types': 7.27.1
-      '@netlify/binary-info': 1.0.0
-      '@netlify/serverless-functions-api': 1.41.2
-      '@vercel/nft': 0.29.3(rollup@4.40.1)
-      archiver: 7.0.1
-      common-path-prefix: 3.0.0
-      copy-file: 11.0.0
-      es-module-lexer: 1.6.0
-      esbuild: 0.25.4
-      execa: 8.0.1
-      fast-glob: 3.3.3
-      filter-obj: 6.1.0
-      find-up: 7.0.0
-      glob: 8.1.0
-      is-builtin-module: 3.2.1
-      is-path-inside: 4.0.0
-      junk: 4.0.1
-      locate-path: 7.2.0
-      merge-options: 3.0.4
-      minimatch: 9.0.5
-      normalize-path: 3.0.0
-      p-map: 7.0.3
-      path-exists: 5.0.0
-      precinct: 12.2.0
-      require-package-name: 2.0.1
-      resolve: 2.0.0-next.5
-      semver: 7.7.1
-      tmp-promise: 3.0.3
-      toml: 3.0.0
-      unixify: 1.0.0
-      urlpattern-polyfill: 8.0.2
-      yargs: 17.7.2
-      zod: 3.24.2
-    transitivePeerDependencies:
-      - encoding
-      - rollup
-      - supports-color
-
-  '@netlify/zip-it-and-ship-it@14.1.0(rollup@4.40.1)':
+  '@netlify/zip-it-and-ship-it@14.1.3(rollup@4.40.1)':
     dependencies:
       '@babel/parser': 7.28.0
       '@babel/types': 7.28.1
       '@netlify/binary-info': 1.0.0
-      '@netlify/serverless-functions-api': 2.1.3
+      '@netlify/serverless-functions-api': 2.2.0
       '@vercel/nft': 0.29.4(rollup@4.40.1)
       archiver: 7.0.1
       common-path-prefix: 3.0.0
@@ -8782,7 +8672,6 @@ snapshots:
       fast-glob: 3.3.3
       filter-obj: 6.1.0
       find-up: 7.0.0
-      is-builtin-module: 3.2.1
       is-path-inside: 4.0.0
       junk: 4.0.1
       locate-path: 7.2.0
@@ -9331,7 +9220,7 @@ snapshots:
       debug: 4.4.0(supports-color@9.4.0)
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.7.1
+      semver: 7.7.2
       tsutils: 3.21.0(typescript@5.9.2)
     optionalDependencies:
       typescript: 5.9.2
@@ -9346,7 +9235,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.1.0(typescript@5.9.2)
       typescript: 5.9.2
     transitivePeerDependencies:
@@ -9377,25 +9266,6 @@ snapshots:
       graceful-fs: 4.2.11
       micromatch: 4.0.8
       node-gyp-build: 4.8.4
-      resolve-from: 5.0.0
-    transitivePeerDependencies:
-      - encoding
-      - rollup
-      - supports-color
-
-  '@vercel/nft@0.29.3(rollup@4.40.1)':
-    dependencies:
-      '@mapbox/node-pre-gyp': 2.0.0
-      '@rollup/pluginutils': 5.1.4(rollup@4.40.1)
-      acorn: 8.14.1
-      acorn-import-attributes: 1.9.5(acorn@8.14.1)
-      async-sema: 3.1.1
-      bindings: 1.5.0
-      estree-walker: 2.0.2
-      glob: 10.4.5
-      graceful-fs: 4.2.11
-      node-gyp-build: 4.8.4
-      picomatch: 4.0.2
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -9435,7 +9305,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.14':
     dependencies:
-      '@babel/parser': 7.27.2
+      '@babel/parser': 7.28.0
       '@vue/shared': 3.5.14
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -9448,7 +9318,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.14':
     dependencies:
-      '@babel/parser': 7.27.2
+      '@babel/parser': 7.28.0
       '@vue/compiler-core': 3.5.14
       '@vue/compiler-dom': 3.5.14
       '@vue/compiler-ssr': 3.5.14
@@ -9470,22 +9340,10 @@ snapshots:
       '@whatwg-node/promise-helpers': 1.3.1
       tslib: 2.8.1
 
-  '@whatwg-node/fetch@0.10.6':
-    dependencies:
-      '@whatwg-node/node-fetch': 0.7.18
-      urlpattern-polyfill: 10.0.0
-
   '@whatwg-node/fetch@0.10.8':
     dependencies:
       '@whatwg-node/node-fetch': 0.7.21
       urlpattern-polyfill: 10.0.0
-
-  '@whatwg-node/node-fetch@0.7.18':
-    dependencies:
-      '@fastify/busboy': 3.1.1
-      '@whatwg-node/disposablestack': 0.0.6
-      '@whatwg-node/promise-helpers': 1.3.1
-      tslib: 2.8.1
 
   '@whatwg-node/node-fetch@0.7.21':
     dependencies:
@@ -9508,13 +9366,6 @@ snapshots:
       '@whatwg-node/disposablestack': 0.0.6
       '@whatwg-node/fetch': 0.10.8
       '@whatwg-node/promise-helpers': 1.3.2
-      tslib: 2.8.1
-
-  '@whatwg-node/server@0.9.71':
-    dependencies:
-      '@whatwg-node/disposablestack': 0.0.6
-      '@whatwg-node/fetch': 0.10.6
-      '@whatwg-node/promise-helpers': 1.3.1
       tslib: 2.8.1
 
   '@xhmikosr/archive-type@6.0.1':
@@ -9934,7 +9785,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   bundle-name@3.0.0:
     dependencies:
@@ -10730,6 +10581,8 @@ snapshots:
   emoji-regex@8.0.0: {}
 
   emoji-regex@9.2.2: {}
+
+  empathic@2.0.0: {}
 
   enabled@2.0.0: {}
 
@@ -12484,7 +12337,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   make-error@1.3.6: {}
 
@@ -13054,20 +12907,11 @@ snapshots:
       p-wait-for: 5.0.2
       qs: 6.14.0
 
-  netlify@13.3.5:
-    dependencies:
-      '@netlify/open-api': 2.37.0
-      lodash-es: 4.17.21
-      micro-api-client: 3.3.0
-      node-fetch: 3.3.2
-      p-wait-for: 5.0.2
-      qs: 6.14.0
-
   next-tick@1.1.0: {}
 
   node-abi@3.74.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   node-addon-api@4.3.0: {}
 
@@ -13108,11 +12952,11 @@ snapshots:
 
   node-source-walk@6.0.2:
     dependencies:
-      '@babel/parser': 7.27.0
+      '@babel/parser': 7.28.0
 
   node-source-walk@7.0.1:
     dependencies:
-      '@babel/parser': 7.27.2
+      '@babel/parser': 7.28.0
 
   node-stream-zip@1.15.0: {}
 
@@ -13128,7 +12972,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.1
+      semver: 7.7.2
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@6.0.2:
@@ -13359,7 +13203,7 @@ snapshots:
       ky: 1.7.5
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
-      semver: 7.7.1
+      semver: 7.7.2
 
   parallel-transform@1.2.0:
     dependencies:
@@ -14918,11 +14762,6 @@ snapshots:
       typedarray-to-buffer: 3.1.5
 
   write-file-atomic@5.0.1:
-    dependencies:
-      imurmurhash: 0.1.4
-      signal-exit: 4.1.0
-
-  write-file-atomic@6.0.0:
     dependencies:
       imurmurhash: 0.1.4
       signal-exit: 4.1.0
