@@ -29,7 +29,7 @@ importers:
         version: 18.2.4
       '@tsconfig/recommended':
         specifier: ^1.0.8
-        version: 1.0.11
+        version: 1.0.13
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.7
@@ -1960,8 +1960,8 @@ packages:
   '@tsconfig/node18@18.2.4':
     resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
 
-  '@tsconfig/recommended@1.0.11':
-    resolution: {integrity: sha512-irACIVvr9SnQK+zsrO7TkBVTq9LAafdyrjUxv6qgNh2wPi3/hFHcKEWMMlOd4HnRIDMdtI7ciVoPcZ9EuB7xMg==}
+  '@tsconfig/recommended@1.0.13':
+    resolution: {integrity: sha512-sySRuBfMKyKO/j2ZAhR8kSembhjuPEV4Ra3AHtmWLq51+iGaudr45crPSzNC5b7/Ctrh9dfUpBuTlYrH6rM58Q==}
 
   '@tsconfig/strictest@2.0.7':
     resolution: {integrity: sha512-lG1bXQloBVvQXasPBZSBaWbs7GNW4txZMYs7XMUVzM0s4seCbJACYBPFIRpGNVD3gC8gndK00AZON1uBrJt4Fw==}
@@ -9207,7 +9207,7 @@ snapshots:
 
   '@tsconfig/node18@18.2.4': {}
 
-  '@tsconfig/recommended@1.0.11': {}
+  '@tsconfig/recommended@1.0.13': {}
 
   '@tsconfig/strictest@2.0.7': {}
 
