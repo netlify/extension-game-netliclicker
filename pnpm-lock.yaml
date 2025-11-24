@@ -26,7 +26,7 @@ importers:
         version: 1.2.2
       '@tsconfig/node18':
         specifier: ^18.2.4
-        version: 18.2.5
+        version: 18.2.6
       '@tsconfig/recommended':
         specifier: ^1.0.8
         version: 1.0.13
@@ -1957,8 +1957,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsconfig/node18@18.2.5':
-    resolution: {integrity: sha512-nQicUR0hKCXwCTVByBMPKm+lWH4B+IquC9Y1KEe4oujGVFFKGTIpAFz5z/AwJooSocVAuTSWTe/7ey1nU+xrlA==}
+  '@tsconfig/node18@18.2.6':
+    resolution: {integrity: sha512-eAWQzAjPj18tKnDzmWstz4OyWewLUNBm9tdoN9LayzoboRktYx3Enk1ZXPmThj55L7c4VWYq/Bzq0A51znZfhw==}
 
   '@tsconfig/recommended@1.0.13':
     resolution: {integrity: sha512-sySRuBfMKyKO/j2ZAhR8kSembhjuPEV4Ra3AHtmWLq51+iGaudr45crPSzNC5b7/Ctrh9dfUpBuTlYrH6rM58Q==}
@@ -9205,7 +9205,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsconfig/node18@18.2.5': {}
+  '@tsconfig/node18@18.2.6': {}
 
   '@tsconfig/recommended@1.0.13': {}
 
