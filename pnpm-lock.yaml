@@ -13,7 +13,7 @@ importers:
         version: 3.1.10(rollup@4.52.5)
       '@netlify/sdk':
         specifier: ^3.0.0
-        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(rollup@4.52.5)(tailwindcss@3.4.18(yaml@2.7.0))(yaml@2.7.0)
+        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       react:
         specifier: ^19.0.0
         version: 19.2.1
@@ -53,7 +53,7 @@ importers:
         version: 19.1.7(@types/node@22.13.14)(picomatch@4.0.3)(rollup@4.52.5)
       tailwindcss:
         specifier: ^3.4.3
-        version: 3.4.18(yaml@2.7.0)
+        version: 3.4.19(yaml@2.7.0)
       typescript:
         specifier: ^5.8.2
         version: 5.9.3
@@ -6025,8 +6025,8 @@ packages:
   resolve-pathname@3.0.0:
     resolution: {integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==}
 
-  resolve@1.22.10:
-    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+  resolve@1.22.11:
+    resolution: {integrity: sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==}
     engines: {node: '>= 0.4'}
     hasBin: true
 
@@ -6420,8 +6420,8 @@ packages:
   stylis@4.2.0:
     resolution: {integrity: sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==}
 
-  sucrase@3.35.0:
-    resolution: {integrity: sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA==}
+  sucrase@3.35.1:
+    resolution: {integrity: sha512-DhuTmvZWux4H1UOnWMB3sk0sbaCVOoQZjv8u1rDoTV0HTdGem9hkAZtl4JZy8P2z4Bg0nT+YMeOFyVr4zcG5Tw==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
@@ -6458,8 +6458,8 @@ packages:
     resolution: {integrity: sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==}
     engines: {node: '>=18'}
 
-  tailwindcss@3.4.18:
-    resolution: {integrity: sha512-6A2rnmW5xZMdw11LYjhcI5846rt9pbLSabY5XPxo+XWdxwZaFEn47Go4NzFiHu9sNNmr/kXivP1vStfvMaK1GQ==}
+  tailwindcss@3.4.19:
+    resolution: {integrity: sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -8590,7 +8590,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/sdk--ui-react@1.23.0(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(tailwindcss@3.4.18(yaml@2.7.0))(yaml@2.7.0)':
+  '@netlify/sdk--ui-react@1.23.0(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@fullstory/browser': 2.0.6
       '@hookform/resolvers': 3.10.0(react-hook-form@7.54.2(react@19.2.1))
@@ -8609,7 +8609,7 @@ snapshots:
       react-hook-form: 7.54.2(react@19.2.1)
       react-select: 5.10.1(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       shiki: 1.29.2
-      tailwindcss: 3.4.18(yaml@2.7.0)
+      tailwindcss: 3.4.19(yaml@2.7.0)
       zod: 3.24.2
     transitivePeerDependencies:
       - '@types/react'
@@ -8617,7 +8617,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(rollup@4.52.5)(tailwindcss@3.4.18(yaml@2.7.0))(yaml@2.7.0)':
+  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
       '@graphql-tools/stitch': 9.4.21(graphql@16.10.0)
@@ -8629,7 +8629,7 @@ snapshots:
       '@netlify/sdk--extension-api-client': 2.12.6
       '@netlify/sdk--ui-core': 1.14.0
       '@netlify/sdk--ui-functions': 1.10.0(@trpc/server@11.0.1(typescript@5.9.3))(rollup@4.52.5)
-      '@netlify/sdk--ui-react': 1.23.0(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(tailwindcss@3.4.18(yaml@2.7.0))(yaml@2.7.0)
+      '@netlify/sdk--ui-react': 1.23.0(@types/react@19.2.7)(autoprefixer@10.4.23(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       '@sindresorhus/slugify': 2.2.1
       '@types/configstore': 6.0.2
       camelcase: 8.0.0
@@ -8685,8 +8685,8 @@ snapshots:
   '@netlify/tailwind-config@2.1.0(yaml@2.7.0)':
     dependencies:
       '@netlify/netlify-design-tokens': 7.1.0
-      '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.18(yaml@2.7.0))
-      tailwindcss: 3.4.18(yaml@2.7.0)
+      '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.19(yaml@2.7.0))
+      tailwindcss: 3.4.19(yaml@2.7.0)
     transitivePeerDependencies:
       - tsx
       - yaml
@@ -9165,9 +9165,9 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.18(yaml@2.7.0))':
+  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.19(yaml@2.7.0))':
     dependencies:
-      tailwindcss: 3.4.18(yaml@2.7.0)
+      tailwindcss: 3.4.19(yaml@2.7.0)
 
   '@tippyjs/react@4.2.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
@@ -9818,7 +9818,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.27.0
       cosmiconfig: 7.1.0
-      resolve: 1.22.10
+      resolve: 1.22.11
 
   backoff@2.5.0:
     dependencies:
@@ -13523,7 +13523,7 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
-      resolve: 1.22.10
+      resolve: 1.22.11
 
   postcss-js@4.1.0(postcss@8.5.6):
     dependencies:
@@ -13925,7 +13925,7 @@ snapshots:
 
   resolve-pathname@3.0.0: {}
 
-  resolve@1.22.10:
+  resolve@1.22.11:
     dependencies:
       is-core-module: 2.16.1
       path-parse: 1.0.7
@@ -14366,14 +14366,14 @@ snapshots:
 
   stylis@4.2.0: {}
 
-  sucrase@3.35.0:
+  sucrase@3.35.1:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       commander: 4.1.1
-      glob: 10.4.5
       lines-and-columns: 1.2.4
       mz: 2.7.0
       pirates: 4.0.7
+      tinyglobby: 0.2.15
       ts-interface-checker: 0.1.13
 
   sudo-prompt@8.2.5: {}
@@ -14407,7 +14407,7 @@ snapshots:
 
   system-architecture@0.1.0: {}
 
-  tailwindcss@3.4.18(yaml@2.7.0):
+  tailwindcss@3.4.19(yaml@2.7.0):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -14429,8 +14429,8 @@ snapshots:
       postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.6)(yaml@2.7.0)
       postcss-nested: 6.2.0(postcss@8.5.6)
       postcss-selector-parser: 6.1.2
-      resolve: 1.22.10
-      sucrase: 3.35.0
+      resolve: 1.22.11
+      sucrase: 3.35.1
     transitivePeerDependencies:
       - tsx
       - yaml
