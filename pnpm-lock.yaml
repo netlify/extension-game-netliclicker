@@ -13,7 +13,7 @@ importers:
         version: 3.1.10(rollup@4.52.5)
       '@netlify/sdk':
         specifier: ^3.0.0
-        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.10)(autoprefixer@10.4.24(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
+        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.13)(autoprefixer@10.4.24(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       react:
         specifier: ^19.0.0
         version: 19.2.4
@@ -38,10 +38,10 @@ importers:
         version: 3.4.0
       '@types/react':
         specifier: ^19.0.10
-        version: 19.2.10
+        version: 19.2.13
       '@types/react-dom':
         specifier: ^19.0.4
-        version: 19.2.3(@types/react@19.2.10)
+        version: 19.2.3(@types/react@19.2.13)
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.7.0(vite@6.4.1(@types/node@22.13.14)(jiti@1.21.7)(yaml@2.7.0))
@@ -2086,8 +2086,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
 
-  '@types/react@19.2.10':
-    resolution: {integrity: sha512-WPigyYuGhgZ/cTPRXB2EwUw+XvsRA3GqHlsP4qteqrnnjDrApbS7MxcGr/hke5iUoeB7E/gQtrs9I37zAJ0Vjw==}
+  '@types/react@19.2.13':
+    resolution: {integrity: sha512-KkiJeU6VbYbUOp5ITMIc7kBfqlYkKA5KhEHVrGMmUUMt7NeaZg65ojdPk+FtNrBAOXNVM5QM72jnADjM+XVRAQ==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -4004,16 +4004,17 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -6500,12 +6501,12 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
-    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
-    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   teeny-request@7.2.0:
     resolution: {integrity: sha512-SyY0pek1zWsi0LRVAALem+avzMLc33MKW/JLLakdP4s9+D7+jHcy5x6P+h94g2QNZsAqQNfX5lsbd3WSeJXrrw==}
@@ -7396,7 +7397,7 @@ snapshots:
 
   '@emotion/memoize@0.9.0': {}
 
-  '@emotion/react@11.14.0(@types/react@19.2.10)(react@19.2.4)':
+  '@emotion/react@11.14.0(@types/react@19.2.13)(react@19.2.4)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@emotion/babel-plugin': 11.13.5
@@ -7408,7 +7409,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 19.2.4
     optionalDependencies:
-      '@types/react': 19.2.10
+      '@types/react': 19.2.13
     transitivePeerDependencies:
       - supports-color
 
@@ -8609,7 +8610,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/sdk--ui-react@1.23.0(@types/react@19.2.10)(autoprefixer@10.4.24(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
+  '@netlify/sdk--ui-react@1.23.0(@types/react@19.2.13)(autoprefixer@10.4.24(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@fullstory/browser': 2.0.6
       '@hookform/resolvers': 3.10.0(react-hook-form@7.54.2(react@19.2.4))
@@ -8626,7 +8627,7 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       react-hook-form: 7.54.2(react@19.2.4)
-      react-select: 5.10.1(@types/react@19.2.10)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      react-select: 5.10.1(@types/react@19.2.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       shiki: 1.29.2
       tailwindcss: 3.4.19(yaml@2.7.0)
       zod: 3.24.2
@@ -8636,7 +8637,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.10)(autoprefixer@10.4.24(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
+  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.13)(autoprefixer@10.4.24(postcss@8.5.6))(graphql@16.10.0)(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rollup@4.52.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
       '@graphql-tools/stitch': 9.4.21(graphql@16.10.0)
@@ -8648,7 +8649,7 @@ snapshots:
       '@netlify/sdk--extension-api-client': 2.12.6
       '@netlify/sdk--ui-core': 1.14.0
       '@netlify/sdk--ui-functions': 1.10.0(@trpc/server@11.0.1(typescript@5.9.3))(rollup@4.52.5)
-      '@netlify/sdk--ui-react': 1.23.0(@types/react@19.2.10)(autoprefixer@10.4.24(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
+      '@netlify/sdk--ui-react': 1.23.0(@types/react@19.2.13)(autoprefixer@10.4.24(postcss@8.5.6))(postcss@8.5.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       '@sindresorhus/slugify': 2.2.1
       '@types/configstore': 6.0.2
       camelcase: 8.0.0
@@ -9327,15 +9328,15 @@ snapshots:
 
   '@types/parse-json@4.0.2': {}
 
-  '@types/react-dom@19.2.3(@types/react@19.2.10)':
+  '@types/react-dom@19.2.3(@types/react@19.2.13)':
     dependencies:
-      '@types/react': 19.2.10
+      '@types/react': 19.2.13
 
-  '@types/react-transition-group@4.4.12(@types/react@19.2.10)':
+  '@types/react-transition-group@4.4.12(@types/react@19.2.13)':
     dependencies:
-      '@types/react': 19.2.10
+      '@types/react': 19.2.13
 
-  '@types/react@19.2.10':
+  '@types/react@19.2.13':
     dependencies:
       csstype: 3.2.3
 
@@ -13785,19 +13786,19 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-select@5.10.1(@types/react@19.2.10)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-select@5.10.1(@types/react@19.2.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       '@babel/runtime': 7.27.0
       '@emotion/cache': 11.14.0
-      '@emotion/react': 11.14.0(@types/react@19.2.10)(react@19.2.4)
+      '@emotion/react': 11.14.0(@types/react@19.2.13)(react@19.2.4)
       '@floating-ui/dom': 1.6.13
-      '@types/react-transition-group': 4.4.12(@types/react@19.2.10)
+      '@types/react-transition-group': 4.4.12(@types/react@19.2.13)
       memoize-one: 6.0.0
       prop-types: 15.8.1
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       react-transition-group: 4.4.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      use-isomorphic-layout-effect: 1.2.0(@types/react@19.2.10)(react@19.2.4)
+      use-isomorphic-layout-effect: 1.2.0(@types/react@19.2.13)(react@19.2.4)
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -14812,11 +14813,11 @@ snapshots:
 
   urlpattern-polyfill@8.0.2: {}
 
-  use-isomorphic-layout-effect@1.2.0(@types/react@19.2.10)(react@19.2.4):
+  use-isomorphic-layout-effect@1.2.0(@types/react@19.2.13)(react@19.2.4):
     dependencies:
       react: 19.2.4
     optionalDependencies:
-      '@types/react': 19.2.10
+      '@types/react': 19.2.13
 
   util-deprecate@1.0.2: {}
 
