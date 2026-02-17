@@ -24,9 +24,9 @@ importers:
       '@netlify/netlify-plugin-netlify-extension':
         specifier: ^1.2.2
         version: 1.2.2
-      '@tsconfig/node18':
-        specifier: ^18.2.4
-        version: 18.2.6
+      '@tsconfig/node20':
+        specifier: ^20.1.0
+        version: 20.1.9
       '@tsconfig/recommended':
         specifier: ^1.0.8
         version: 1.0.13
@@ -1974,8 +1974,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsconfig/node18@18.2.6':
-    resolution: {integrity: sha512-eAWQzAjPj18tKnDzmWstz4OyWewLUNBm9tdoN9LayzoboRktYx3Enk1ZXPmThj55L7c4VWYq/Bzq0A51znZfhw==}
+  '@tsconfig/node20@20.1.9':
+    resolution: {integrity: sha512-IjlTv1RsvnPtUcjTqtVsZExKVq+KQx4g5pCP5tI7rAs6Xesl2qFwSz/tPDBC4JajkL/MlezBu3gPUwqRHl+RIg==}
 
   '@tsconfig/recommended@1.0.13':
     resolution: {integrity: sha512-sySRuBfMKyKO/j2ZAhR8kSembhjuPEV4Ra3AHtmWLq51+iGaudr45crPSzNC5b7/Ctrh9dfUpBuTlYrH6rM58Q==}
@@ -9219,7 +9219,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsconfig/node18@18.2.6': {}
+  '@tsconfig/node20@20.1.9': {}
 
   '@tsconfig/recommended@1.0.13': {}
 
