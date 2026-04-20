@@ -13,7 +13,7 @@ importers:
         version: 3.1.10(rollup@4.60.1)
       '@netlify/sdk':
         specifier: ^3.0.0
-        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.14)(autoprefixer@10.5.0(postcss@8.5.8))(graphql@16.10.0)(postcss@8.5.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(rollup@4.60.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
+        version: 3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@6.0.3))(@types/react@19.2.14)(autoprefixer@10.5.0(postcss@8.5.8))(graphql@16.10.0)(postcss@8.5.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(rollup@4.60.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       react:
         specifier: ^19.0.0
         version: 19.2.5
@@ -55,8 +55,8 @@ importers:
         specifier: ^3.4.3
         version: 3.4.19(yaml@2.7.0)
       typescript:
-        specifier: ^5.8.2
-        version: 5.9.3
+        specifier: ^6.0.0
+        version: 6.0.3
       vite:
         specifier: ^6.2.5
         version: 6.4.2(@types/node@22.13.14)(jiti@1.21.7)(yaml@2.7.0)
@@ -6735,6 +6735,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
@@ -8626,11 +8631,11 @@ snapshots:
       iter-tools-es: 7.5.3
       zod: 3.24.2
 
-  '@netlify/sdk--ui-functions@1.10.0(@trpc/server@11.0.1(typescript@5.9.3))(rollup@4.60.1)':
+  '@netlify/sdk--ui-functions@1.10.0(@trpc/server@11.0.1(typescript@6.0.3))(rollup@4.60.1)':
     dependencies:
       '@netlify/functions': 4.1.13(rollup@4.60.1)
       '@netlify/sdk--extension-api-client': 2.12.6
-      '@trpc/server': 11.0.1(typescript@5.9.3)
+      '@trpc/server': 11.0.1(typescript@6.0.3)
       zod: 3.24.2
     transitivePeerDependencies:
       - encoding
@@ -8664,7 +8669,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@5.9.3))(@types/react@19.2.14)(autoprefixer@10.5.0(postcss@8.5.8))(graphql@16.10.0)(postcss@8.5.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(rollup@4.60.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
+  '@netlify/sdk@3.0.0(@google-cloud/storage@5.20.5)(@trpc/server@11.0.1(typescript@6.0.3))(@types/react@19.2.14)(autoprefixer@10.5.0(postcss@8.5.8))(graphql@16.10.0)(postcss@8.5.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(rollup@4.60.1)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
       '@graphql-tools/stitch': 9.4.21(graphql@16.10.0)
@@ -8675,7 +8680,7 @@ snapshots:
       '@netlify/integrations': 0.6.0
       '@netlify/sdk--extension-api-client': 2.12.6
       '@netlify/sdk--ui-core': 1.14.0
-      '@netlify/sdk--ui-functions': 1.10.0(@trpc/server@11.0.1(typescript@5.9.3))(rollup@4.60.1)
+      '@netlify/sdk--ui-functions': 1.10.0(@trpc/server@11.0.1(typescript@6.0.3))(rollup@4.60.1)
       '@netlify/sdk--ui-react': 1.23.0(@types/react@19.2.14)(autoprefixer@10.5.0(postcss@8.5.8))(postcss@8.5.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(tailwindcss@3.4.19(yaml@2.7.0))(yaml@2.7.0)
       '@sindresorhus/slugify': 2.2.1
       '@types/configstore': 6.0.2
@@ -9235,9 +9240,9 @@ snapshots:
 
   '@tootallnate/once@2.0.0': {}
 
-  '@trpc/server@11.0.1(typescript@5.9.3)':
+  '@trpc/server@11.0.1(typescript@6.0.3)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   '@trysound/sax@0.2.0': {}
 
@@ -14745,6 +14750,8 @@ snapshots:
       is-typedarray: 1.0.0
 
   typescript@5.9.3: {}
+
+  typescript@6.0.3: {}
 
   ufo@1.5.4: {}
 
