@@ -34,8 +34,8 @@ importers:
         specifier: ^2.0.5
         version: 2.0.8
       '@tsconfig/vite-react':
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^8.0.0
+        version: 8.1.1
       '@types/react':
         specifier: ^19.0.10
         version: 19.2.18
@@ -2000,8 +2000,8 @@ packages:
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
 
-  '@tsconfig/vite-react@3.4.0':
-    resolution: {integrity: sha512-NxS7WJayciLI+UnCgEqdBfQrZebvVNTSEj5EnaitwThL7iAso5G8wx18B/6yypCFGnyu8p6IMpKWu6JklOX3KA==}
+  '@tsconfig/vite-react@8.1.1':
+    resolution: {integrity: sha512-TdLtRE9INt7aupEC2yhem6y4RN8T+B4oa2OUYsay0ioxSDl8Q4yaq0k2yc86Gb2BEHjKp4RUxgIzqOTk4IQ8dQ==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -9290,7 +9290,7 @@ snapshots:
 
   '@tsconfig/strictest@2.0.8': {}
 
-  '@tsconfig/vite-react@3.4.0': {}
+  '@tsconfig/vite-react@8.1.1': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
