@@ -22,8 +22,8 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@netlify/netlify-plugin-netlify-extension':
-        specifier: ^1.2.2
-        version: 1.2.2
+        specifier: ^1.2.3
+        version: 1.2.3
       '@tsconfig/node18':
         specifier: ^18.2.4
         version: 18.2.7
@@ -1433,8 +1433,8 @@ packages:
   '@netlify/netlify-design-tokens@7.1.0':
     resolution: {integrity: sha512-Rh88/9yMquQuHmsmHn/fip6QOWsLp21sCuPK9wYLJ3uScS8HagXfgDXGeYvaStURn8bhtG8hY1tyDbfbgy3+IA==}
 
-  '@netlify/netlify-plugin-netlify-extension@1.2.2':
-    resolution: {integrity: sha512-SPzjSNBdb272tb89AwRKoL07eY91JY/hB2Px2ZRdAXQKUwQEe+yfZyYiepDwbB1On/H0kVhRHQY1D0Q2y2Xrug==}
+  '@netlify/netlify-plugin-netlify-extension@1.2.3':
+    resolution: {integrity: sha512-du/XIHm/2tEg7ipFaxzHTbnvPb6PJlu5sV69ytFbGaHQEBFhmnU8FrVeO0F+XH4/prx3m/+p6bdNv30FTW8g1Q==}
 
   '@netlify/open-api@2.36.0':
     resolution: {integrity: sha512-cxdjUkHh0/SLvPusCFOmIoKpXdfvom+cpBT/bUrP2oxxH1htWgJ59GGuu/pJGEU+xhKpPotr+TSJl00u7ktIhg==}
@@ -7220,6 +7220,9 @@ packages:
   zod@3.24.2:
     resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
@@ -8613,12 +8616,12 @@ snapshots:
 
   '@netlify/netlify-design-tokens@7.1.0': {}
 
-  '@netlify/netlify-plugin-netlify-extension@1.2.2':
+  '@netlify/netlify-plugin-netlify-extension@1.2.3':
     dependencies:
       moize: 6.1.6
       outdent: 0.8.0
       yaml: 2.7.0
-      zod: 3.24.2
+      zod: 4.6.7
 
   '@netlify/open-api@2.36.0': {}
 
@@ -15173,5 +15176,7 @@ snapshots:
       zod: 3.24.2
 
   zod@3.24.2: {}
+
+  zod@4.6.7: {}
 
   zwitch@2.0.4: {}
